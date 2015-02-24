@@ -279,7 +279,7 @@ var Multiselect = React.createClass({
 
     this.notify('onSelect', data)
     this.change(this.state.dataItems.concat(data))
-    this.close()
+    // this.close()
     this._focus(true)
   },
 
@@ -288,7 +288,7 @@ var Multiselect = React.createClass({
       return
 
     this.notify('onCreate', tag)
-    this.close()
+    // this.close()
     this._focus(true)
   },
 
